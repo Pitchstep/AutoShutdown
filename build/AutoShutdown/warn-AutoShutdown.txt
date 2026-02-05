@@ -1,0 +1,67 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean these modules are required for running your program. Both
+Python's standard library and 3rd-party Python packages often conditionally
+import optional modules, some of which may be available only on certain
+platforms.
+
+Types of import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named _winapi - imported by ntpath (optional), encodings (delayed, conditional, optional), shutil (conditional), subprocess (conditional), multiprocessing.connection (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.reduction (conditional), multiprocessing.shared_memory (conditional), multiprocessing.heap (conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level), sysconfig (delayed), mimetypes (optional)
+missing module named msvcrt - imported by subprocess (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level), getpass (optional)
+missing module named winreg - imported by importlib._bootstrap_external (conditional), platform (delayed, optional), mimetypes (optional), darkdetect._windows_detect (top-level), urllib.request (delayed, conditional, optional)
+missing module named 'collections.abc' - imported by traceback (top-level), typing (top-level), inspect (top-level), logging (top-level), importlib.resources.readers (top-level), selectors (top-level), tracemalloc (top-level), typing_extensions (top-level), asyncio.base_events (top-level), http.client (top-level), asyncio.coroutines (top-level), PyObjCTools.KeyValueCoding (top-level), objc._convenience_nsdictionary (top-level), objc._convenience_mapping (top-level), objc._convenience_nsset (top-level), objc._convenience_nsarray (top-level), objc._bridges (top-level), objc._properties (top-level), xml.etree.ElementTree (top-level), objc._pycoder (top-level), PIL.Image (top-level), PIL.GifImagePlugin (delayed, conditional), PIL.TiffImagePlugin (top-level)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named nt - imported by os (delayed, conditional, optional), ntpath (optional), shutil (conditional), importlib._bootstrap_external (conditional), _colorize (delayed, conditional, optional), ctypes (delayed, conditional)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named pyimod02_importers - imported by /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py (delayed)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named 'java.lang' - imported by platform (delayed, optional)
+missing module named java - imported by platform (delayed)
+missing module named _wmi - imported by platform (optional)
+missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
+missing module named numpy - imported by PIL._typing (optional), PIL.Image (delayed, conditional, optional)
+missing module named cffi - imported by PIL.Image (optional), PIL.PyAccess (optional)
+missing module named defusedxml - imported by PIL.Image (optional)
+missing module named _overlapped - imported by asyncio.windows_events (top-level)
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio (delayed, conditional), asyncio.events (delayed, conditional)
+missing module named annotationlib - imported by typing_extensions (conditional)
+missing module named ExceptionHandling.NSStackTraceKey - imported by ExceptionHandling (top-level), PyObjCTools.Debugging (top-level)
+missing module named ExceptionHandling.NSLogUncaughtExceptionMask - imported by ExceptionHandling (top-level), PyObjCTools.Debugging (top-level)
+missing module named ExceptionHandling.NSLogAndHandleEveryExceptionMask - imported by ExceptionHandling (top-level), PyObjCTools.Debugging (top-level)
+missing module named ExceptionHandling.NSExceptionHandler - imported by ExceptionHandling (top-level), PyObjCTools.Debugging (top-level)
+missing module named objc.super - imported by objc (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSTimer - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSThread - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSRunLoop - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSNotificationCenter - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSLog - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level), PyObjCTools.Debugging (top-level)
+missing module named Foundation.NSDefaultRunLoopMode - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSDate - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named Foundation.NSAutoreleasePool - imported by Foundation (top-level), PyObjCTools.AppHelper (top-level)
+missing module named AppKit.NSRunAlertPanel - imported by AppKit (top-level), PyObjCTools.AppHelper (top-level)
+missing module named AppKit.NSApplicationMain - imported by AppKit (top-level), PyObjCTools.AppHelper (top-level)
+missing module named AppKit.NSApplicationDidFinishLaunchingNotification - imported by AppKit (top-level), PyObjCTools.AppHelper (top-level)
+missing module named AppKit.NSApp - imported by AppKit (top-level), PyObjCTools.AppHelper (top-level)
+missing module named objc.nosuchclass_error - imported by objc (top-level), objc._lazyimport (top-level)
+missing module named objc.loadBundle - imported by objc (top-level), objc._lazyimport (top-level)
+missing module named objc.getClassList - imported by objc (top-level), objc._lazyimport (top-level)
+missing module named objc.NULL - imported by objc (top-level), objc._properties (top-level)
+missing module named objc._C_BOOL - imported by objc (top-level), objc._properties (top-level)
+missing module named Foundation.NSUserDefaults - imported by Foundation (optional), darkdetect._mac_detect (optional)
+missing module named Foundation.NSKeyValueChangeNewKey - imported by Foundation (optional), darkdetect._mac_detect (optional)
+missing module named Foundation.NSKeyValueObservingOptionNew - imported by Foundation (optional), darkdetect._mac_detect (optional)
+missing module named Foundation.NSObject - imported by Foundation (optional), darkdetect._mac_detect (optional), PyObjCTools.AppHelper (top-level), PyObjCTools.Debugging (top-level)
