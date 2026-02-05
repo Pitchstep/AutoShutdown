@@ -11,6 +11,7 @@ This program simply shuts off your computer at your desired time.
 
 (Make sure to accept permissions if prompted!)
 
-#- Made with Python.
+-# Made with Python.
+
 
 
