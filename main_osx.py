@@ -87,7 +87,7 @@ def cancel_shutdown():
     )
 
 root = ctk.CTk()
-root.title("AutoShutdown)")
+root.title("AutoShutdown")
 root.geometry("380x340")
 root.resizable(False, False)
 
@@ -97,7 +97,7 @@ ctk.CTkLabel(root, text="AutoShutdown", font=ctk.CTkFont(size=24, weight="bold")
 time_frame = ctk.CTkFrame(root)
 time_frame.pack(pady=15, padx=30, fill="x")
 
-ctk.CTkLabel(time_frame, text="Shut down at:", font=ctk.CTkFont(size=14)).grid(row=0, column=0, columnspan=3, pady=(0, 10))
+ctk.CTkLabel(time_frame, text="Shut down at:", font=ctk.CTkFont(size=14)).grid(row=0, column=0, columnspan=4, pady=(0, 10))  # columnspan -> 4
 
 ctk.CTkLabel(time_frame, text="Hour:").grid(row=1, column=0, padx=(0, 8), sticky="e")
 hour_var = ctk.StringVar(value="00")
